@@ -1,0 +1,5 @@
+const c = 5;
+
+begin
+  call c /* Error[17]: Call of a constant or variable is not allowed */
+end.

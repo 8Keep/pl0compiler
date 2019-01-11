@@ -1,0 +1,10 @@
+not_error io/0/lexer_out.txt io/your_outputs/0/cg_out.txt /dev/null io/your_outputs/0/vm_out.txt io/0/vm_out.txt
+not_error io/1/lexer_out.txt io/your_outputs/1/cg_out.txt /dev/null io/your_outputs/1/vm_out.txt io/1/vm_out.txt
+not_error io/2/lexer_out.txt io/your_outputs/2/cg_out.txt /dev/null io/your_outputs/2/vm_out.txt io/2/vm_out.txt
+not_error io/3/lexer_out.txt io/your_outputs/3/cg_out.txt /dev/null io/your_outputs/3/vm_out.txt io/3/vm_out.txt
+not_error io/4/lexer_out.txt io/your_outputs/4/cg_out.txt io/4/vm_in.txt io/your_outputs/4/vm_out.txt io/4/vm_out.txt
+not_error io/5/lexer_out.txt io/your_outputs/5/cg_out.txt /dev/null io/your_outputs/5/vm_out.txt io/5/vm_out.txt
+error io/6/lexer_out.txt io/your_outputs/6/cg_out.txt io/6/code_generator_err.txt
+error io/7/lexer_out.txt io/your_outputs/7/cg_out.txt io/7/code_generator_err.txt
+error io/8/lexer_out.txt io/your_outputs/8/cg_out.txt io/8/code_generator_err.txt
+error io/9/lexer_out.txt io/your_outputs/9/cg_out.txt io/9/code_generator_err.txt

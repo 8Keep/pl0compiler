@@ -1,0 +1,25 @@
+/* while loop */
+var i;
+
+/* main func */
+begin
+  read i; /* Read: 5 will be inputed */
+  
+  while i <> 0 do
+  begin
+    /* Prints 5 4 3 2 1 */
+    write i;
+    i := i - 1
+  end;
+  
+  read i; /* Read: 10 will be inputted */
+  
+  while i <= 1 do
+  begin
+    /* Shouldn't execute */
+    i := i + 1;
+    write i
+  end;
+  
+  write i; /* Prints 10 */
+end.

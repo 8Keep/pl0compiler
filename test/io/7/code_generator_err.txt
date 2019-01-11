@@ -1,0 +1,1 @@
+CODE GENERATOR ERROR[16]: Assignment to constant or procedure is not allowed.

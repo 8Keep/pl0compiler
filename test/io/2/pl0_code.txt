@@ -1,0 +1,39 @@
+/* Nested procedures */
+const c = 0;
+var i;
+
+/* Procedure f */
+procedure f;
+  var i;
+  begin
+    write c;
+    i := 1;
+    write i;
+    i := 9
+  end;
+  
+/* Procedure g */
+procedure g;
+  var i;
+  /* Nested procedure: gx */
+  procedure gx;
+    begin
+      /* Write the variable of the outer scope */
+      write i;
+    end;
+  begin
+    write c;
+    i := 2;
+    write i;
+    i := 3;
+    call gx
+  end;
+
+/* main func */
+begin
+  i := 99;
+  call f;
+  write i;
+  call g;
+  write i
+end.

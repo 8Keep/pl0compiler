@@ -1,0 +1,18 @@
+/* Variables with the same name at different scopes */
+var  i;
+
+procedure f;
+  var i;
+  begin
+    i := 3;
+    write i;
+    i := 4
+  end;
+
+/* main func */
+begin
+  i := 2;
+  write i;
+  call f;
+  write i
+end.

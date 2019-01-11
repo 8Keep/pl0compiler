@@ -1,0 +1,10 @@
+procedure readvari;
+  var i;
+  begin
+    read i;
+  end;
+
+begin
+  call f;
+  write i /* Error[15]: Identifier is undeclared or out of scope */
+end.

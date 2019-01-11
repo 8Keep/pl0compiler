@@ -1,0 +1,22 @@
+/* A simple input */
+const c1 = 3;
+var  i;
+
+procedure f;
+  const c2 = 4;
+  var j;
+  begin
+    write c1;
+    write c2;
+    j := 3 + 4;
+    write j;
+    i := j + c1 + c2
+  end;
+
+/* main func */
+begin
+  i := 10 / 2;
+  write i;
+  call f;
+  write i
+end.

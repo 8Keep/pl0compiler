@@ -1,0 +1,28 @@
+/* Condition, if-then and if-then-else */
+const c1 = 1, c2 = 2, c3 = 3, c4 = 4, c5 = 5, c6 = 6;
+
+/* main func */
+begin
+  if 4 + (-(10 / 2)) = -c1 then
+  begin
+    write c1; /* Should execute */
+  end;
+  
+  if c2 <> c2 then
+  begin
+    write c2 /* Shouldn't execute */
+  end
+  else
+  begin
+    write c3 /* Should execute */
+  end;
+  
+  /* Condition: true */
+  if c3 >= c2 then write c4;
+  
+  /* Condition: true */
+  if ((c1 + c2) * c3) / 3 = c3 then write c5;
+  
+  /* Condition: false */
+  if (c4 + c5) = ((c1 + c2) - c3) + 3 then write c6;
+end.

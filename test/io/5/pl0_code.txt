@@ -1,0 +1,26 @@
+/* expression - term - factor: operator precedence */
+var result;
+
+/* main func */
+begin
+  result := 3 + 4 * 5;
+  write result; /* 23 */
+  
+  result := (3 + 4) * 5;
+  write result; /* 35 */
+  
+  result := (3) + 4 * 5;
+  write result; /* 23 */
+  
+  result := (3 + 4 - 1) * 5;
+  write result; /* 30 */
+  
+  result := (3 * (4 * (5 * (7 - 6))));
+  write result; /* 60 */
+  
+  result := (7 - 6) * 5 * 4 / 2;
+  write result; /* 10 */
+  
+  result := -((7 - 6) * 5 * 4 / 2) + 15;
+  write result; /* 5 */
+end.

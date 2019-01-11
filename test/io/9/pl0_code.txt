@@ -1,0 +1,10 @@
+const c = 5;
+
+procedure f;
+begin
+  write c
+end;
+
+begin
+  write f /* Error[18]: Write of a prodecure is not allowed */
+end.

@@ -1,0 +1,11 @@
+Token Type         Lexeme
+        28          const
+         2              c
+         9              =
+         3              5
+        18              ;
+        21          begin
+        27           call
+         2              c
+        22            end
+        19              .
